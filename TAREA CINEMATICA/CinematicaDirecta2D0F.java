@@ -9,12 +9,12 @@ public class CinematicaDirecta2D0F{
 
     public static void main(String[] args) {
      
-        Scanner scanner = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el ángulo theta1 (en grados): ");
-        double theta1 = scanner.nextDouble();
+        double theta1 = Scanner.nextDouble();
         System.out.println("Ingrese el ángulo theta2 (en grados): ");
-        double theta2 = scanner.nextDouble();
+        double theta2 = Scanner.nextDouble();
 
         // Convertir los ángulos de grados a radianes
         theta1 = Math.toRadians(theta1);
